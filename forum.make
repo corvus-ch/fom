@@ -55,6 +55,10 @@ projects[textile][subdir] = "contrib"
 projects[token][version] = 1.2
 projects[token][subdir] = "contrib"
 
+projects[vars][version] = 2.0-alpha10
+projects[vars][type] = "module"
+projects[vars][subdir] = "contrib"
+
 projects[views][version] = 3.5
 projects[views][subdir] = "contrib"
 
