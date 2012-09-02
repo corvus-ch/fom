@@ -22,7 +22,7 @@ projects[auto_nodetitle][subdir] = "contrib"
 projects[ds][version] = 1.5
 projects[ds][subdir] = "contrib"
 
-projects[ctools][version] = 1.1
+projects[ctools][version] = 1.2
 projects[ctools][subdir] = "contrib"
 
 projects[devel][version] = 1.3
@@ -55,7 +55,7 @@ projects[textile][subdir] = "contrib"
 projects[token][version] = 1.2
 projects[token][subdir] = "contrib"
 
-projects[views][version] = 3.3
+projects[views][version] = 3.5
 projects[views][subdir] = "contrib"
 
 projects[vote_up_down][version] = 1.x-dev
