@@ -80,13 +80,11 @@ projects[votingapi][subdir] = "contrib"
 ; Themes
 ; --------
 
-projects[] = alphorn
+projects[corolla][version] = 3.0-rc1
+projects[adaptivetheme][version] = 3.1
   
 ; Libraries
 ; ---------
-
-libraries[superfish][download][type] = "git"
-libraries[superfish][download][url] = "https://github.com/mehrpadin/Superfish-for-Drupal.git"
 
 libraries[textile][download][type] = "svn"
 libraries[textile][download][url] = "http://textpattern.googlecode.com/svn/releases/4.3.0/source/textpattern/lib/"
