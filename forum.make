@@ -34,6 +34,9 @@ projects[entity][subdir] = "contrib"
 projects[entityreference][version] = 1.0-rc3
 projects[entityreference][subdir] = "contrib"
 
+projects[l10n_update][version] = 1.0-beta3
+projects[l10n_update][subdir] = "contrib"
+
 projects[libraries][version] = 1.0
 projects[libraries][subdir] = "contrib"
 
@@ -42,6 +45,9 @@ projects[maxlength][subdir] = "contrib"
 
 projects[nodereference_url][version] = 1.12
 projects[nodereference_url][subdir] = "contrib"
+
+projects[pathauto][version] = 3.1
+projects[pathauto][subdir] = "contrib"
 
 projects[references][version] = 2.0
 projects[references][subdir] = "contrib"
@@ -54,6 +60,9 @@ projects[textile][subdir] = "contrib"
 
 projects[token][version] = 1.2
 projects[token][subdir] = "contrib"
+
+projects[transliteration][version] = 1.2
+projects[transliteration][subdir] = "contrib"
 
 projects[vars][version] = 2.0-alpha10
 projects[vars][type] = "module"
@@ -71,9 +80,13 @@ projects[votingapi][subdir] = "contrib"
 ; Themes
 ; --------
 
+projects[] = alphorn
   
 ; Libraries
 ; ---------
+
+libraries[superfish][download][type] = "git"
+libraries[superfish][download][url] = "https://github.com/mehrpadin/Superfish-for-Drupal.git"
 
 libraries[textile][download][type] = "svn"
 libraries[textile][download][url] = "http://textpattern.googlecode.com/svn/releases/4.3.0/source/textpattern/lib/"
