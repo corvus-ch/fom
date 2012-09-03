@@ -21,7 +21,6 @@ function statements_init() {
 }
 
 function statements_query_views_articles_statements_alter(QueryAlterableInterface $query) {
-  $query->addJoin('LEFT', 'votingapi_vote', 'votes', 'node.nid = votes.entity_id');
-  $query->groupBy('node.nid');
-  $query->orderBy('SUM(votes.value)', 'DESC');
+  $query->addJoin('LEFT', 'votingapi_cache', 'votes', 'node.nid = votes.entity_id AND votes.entity_type = :type AND votes.function = :func', array(':type' => 'node', ':func' => 'sum'));
+  $query->orderBy('COALESCE(votes.value, 0)', 'DESC');
 }
