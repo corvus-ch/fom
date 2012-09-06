@@ -1,5 +1,0 @@
-name = Statements
-description = Asures that a statement is allways diesplayed on ts related article.
-package = Core
-version = 1.0-dev
-core = 7.x

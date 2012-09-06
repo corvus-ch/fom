@@ -1,0 +1,41 @@
+<?php
+
+/**
+ * @file
+ */
+
+/**
+ * Implementation of hook_init().
+ */
+function fom_init() {
+  // Using arg() instead of menu_get_item(). Rumor has it menu_get_item
+  // can occassionally cause WSOD.
+  // We make sure arg(2) is empty so we do not redirect on edit or other
+  // node sub pages.
+  if (arg(0) == 'node' && is_numeric(arg(1)) && arg(2) == '') {
+    $node = node_load(arg(1));
+    if ($node->type == 'statement') {
+      drupal_goto('node/'. $node->field_article['und'][0]['nid']);
+    }
+  }
+
+  drupal_add_js(drupal_get_path('module', 'fom') . '/socialshareprivacy/jquery.socialshareprivacy.min.js', array('group' => JS_LIBRARY));
+  $local_path = '/' . drupal_get_path('module', 'fom') . '/socialshareprivacy/socialshareprivacy/';
+  drupal_add_js("jQuery(document).ready(function($){
+    if($('.socialshareprivacy').length > 0){
+      $('.socialshareprivacy').socialSharePrivacy({
+        services : { 
+          facebook : { 'dummy_img': '" . $local_path . "images/dummy_facebook.png' },
+          twitter : { 'dummy_img' : '" . $local_path . "images/dummy_twitter.png' },
+          gplus : { 'dummy_img' : '" . $local_path . "images/dummy_gplus.png' }
+        }, 
+        'css_path': '" . $local_path . "socialshareprivacy.css'
+      });
+    }
+  });", array('type' => 'inline', 'scope' => 'footer'));
+}
+
+function fom_query_views_articles_fom_alter(QueryAlterableInterface $query) {
+  $query->addJoin('LEFT', 'votingapi_cache', 'votes', 'node.nid = votes.entity_id AND votes.entity_type = :type AND votes.function = :func', array(':type' => 'node', ':func' => 'sum'));
+  $query->orderBy('COALESCE(votes.value, 0)', 'DESC');
+}
