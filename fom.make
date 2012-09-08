@@ -92,10 +92,13 @@ projects[adaptivetheme][version] = 3.1
 ; Libraries
 ; ---------
 
+libraries[ckeditor][download][type] = "file"
+libraries[ckeditor][download][url] = "http://download.cksource.com/CKEditor/CKEditor/CKEditor%203.6.4/ckeditor_3.6.4.tar.gz"
+
+libraries[htmlpurifier][download][type] = "file"
+libraries[htmlpurifier][download][url] = "http://htmlpurifier.org/releases/htmlpurifier-4.4.0.tar.gz"
+
 libraries[textile][download][type] = "svn"
 libraries[textile][download][url] = "http://textpattern.googlecode.com/svn/releases/4.3.0/source/textpattern/lib/"
 libraries[textile][destination] = "modules/contrib/textile/"
 libraries[textile][directory_name] = "include"
-
-libraries[htmlpurifier][download][type] = "file"
-libraries[htmlpurifier][download][url] = "http://htmlpurifier.org/releases/htmlpurifier-4.4.0.tar.gz"
