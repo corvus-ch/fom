@@ -34,6 +34,9 @@ projects[entity][subdir] = "contrib"
 projects[entityreference][version] = 1.0-rc3
 projects[entityreference][subdir] = "contrib"
 
+projects[htmlpurifier][version] = 2.x-dev
+projects[htmlpurifier][subdir] = "contrib"
+
 projects[l10n_update][version] = 1.0-beta3
 projects[l10n_update][subdir] = "contrib"
 
@@ -77,6 +80,9 @@ projects[vote_up_down][subdir] = "contrib"
 projects[votingapi][version] = 2.6
 projects[votingapi][subdir] = "contrib"
 
+projects[wysiwyg][version] = 2.1
+projects[wysiwyg][subdir] = "contrib"
+
 ; Themes
 ; --------
 
@@ -90,3 +96,6 @@ libraries[textile][download][type] = "svn"
 libraries[textile][download][url] = "http://textpattern.googlecode.com/svn/releases/4.3.0/source/textpattern/lib/"
 libraries[textile][destination] = "modules/contrib/textile/"
 libraries[textile][directory_name] = "include"
+
+libraries[htmlpurifier][download][type] = "file"
+libraries[htmlpurifier][download][url] = "http://htmlpurifier.org/releases/htmlpurifier-4.4.0.tar.gz"
