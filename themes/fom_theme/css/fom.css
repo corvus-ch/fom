@@ -1,0 +1,69 @@
+.article.view-mode-teaser .group-left,
+.view-display-id-article .group-left {
+    width: 12%;
+}
+
+.article.view-mode-teaser .group-right,
+.view-display-id-article .group-right {
+    width: 88%;
+}
+
+.view-display-id-statements .group-left {
+    width: 17%;
+}
+
+.view-display-id-statements .group-right {
+    width: 83%;
+}
+
+.view-display-id-statements .comment-wrapper h2.title {
+    display: none;
+}
+
+.article.view-mode-teaser p {
+    margin: 0;
+}
+
+.article.view-mode-teaser .submitted,
+.view-display-id-article .submitted,
+.field-name-post-date {
+    font-style: italic;
+    margin: 0 0 0.6em;
+}
+.group-left .field-type-taxonomy-term-reference ul li {
+    display: block;
+}
+
+.group-left .image-style-user-thumb {
+    margin-right: 1.2em;
+}
+
+.comment-wrapper .comment span {
+    float: left;
+    font-style: italic;
+}
+
+.comment-wrapper .comment span time span,
+.comment-wrapper .comment span span.username {
+    float: none;
+    font-style: italic;
+    margin-right: 8px;
+}
+
+.comment {
+    border: none;
+    margin: 0;
+}
+
+.view-display-id-statements .views-row .article {
+    margin: 0 -30px;
+    padding: 12px 30px;
+}
+
+.view-display-id-statements .views-row-odd .article {
+    background: #fbfbfb;
+}
+
+.view-display-id-statements .views-row-last {
+    margin-bottom: -40px;
+}
