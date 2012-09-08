@@ -1,4 +1,4 @@
 name = Future of Music
-description = Asures that a statement is allways diesplayed on its related article and loads social share privacy scripts.
+description = Asures that a statement is allways diesplayed on its related article and some query alters for sorting.
 version = 1.x-dev
 core = 7.x

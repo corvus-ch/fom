@@ -18,21 +18,6 @@ function fom_init() {
       drupal_goto('node/'. $node->field_article['und'][0]['nid']);
     }
   }
-
-  drupal_add_js(drupal_get_path('module', 'fom') . '/socialshareprivacy/jquery.socialshareprivacy.min.js', array('group' => JS_LIBRARY));
-  $local_path = '/' . drupal_get_path('module', 'fom') . '/socialshareprivacy/socialshareprivacy/';
-  drupal_add_js("jQuery(document).ready(function($){
-    if($('.socialshareprivacy').length > 0){
-      $('.socialshareprivacy').socialSharePrivacy({
-        services : { 
-          facebook : { 'dummy_img': '" . $local_path . "images/dummy_facebook.png' },
-          twitter : { 'dummy_img' : '" . $local_path . "images/dummy_twitter.png' },
-          gplus : { 'dummy_img' : '" . $local_path . "images/dummy_gplus.png' }
-        }, 
-        'css_path': '" . $local_path . "socialshareprivacy.css'
-      });
-    }
-  });", array('type' => 'inline', 'scope' => 'footer'));
 }
 
 function _fom_query_alter_statements($query) {

@@ -55,6 +55,9 @@ projects[pathauto][subdir] = "contrib"
 projects[references][version] = 2.0
 projects[references][subdir] = "contrib"
 
+projects[secureshare][version] = 2.1
+projects[secureshare][subdir] = "contrib"
+
 projects[taxonomy_menu][version] = 1.3
 projects[taxonomy_menu][subdir] = "contrib"
 
@@ -69,6 +72,9 @@ projects[transliteration][subdir] = "contrib"
 
 projects[twitter_block][version] = 1.0
 projects[twitter_block][subdir] = "contrib"
+
+projects[url][version] = 1.0-rc1
+projects[url][subdir] = "contrib"
 
 projects[vars][version] = 2.0-alpha10
 projects[vars][type] = "module"
@@ -100,6 +106,9 @@ libraries[ckeditor][download][url] = "http://download.cksource.com/CKEditor/CKEd
 
 libraries[htmlpurifier][download][type] = "file"
 libraries[htmlpurifier][download][url] = "http://htmlpurifier.org/releases/htmlpurifier-4.4.0.tar.gz"
+
+libraries[socialshareprivacy][download][type] = "file"
+libraries[socialshareprivacy][download][url] = "http://www.heise.de/extras/socialshareprivacy/jquery.socialshareprivacy.tar.gz"
 
 libraries[textile][download][type] = "svn"
 libraries[textile][download][url] = "http://textpattern.googlecode.com/svn/releases/4.3.0/source/textpattern/lib/"
