@@ -19,14 +19,14 @@ projects[drupal][version] = 7.15
 projects[auto_nodetitle][version] = 1.0
 projects[auto_nodetitle][subdir] = "contrib"
 
-projects[ds][version] = 1.5
-projects[ds][subdir] = "contrib"
-
 projects[ctools][version] = 1.2
 projects[ctools][subdir] = "contrib"
 
 projects[devel][version] = 1.3
 projects[devel][subdir] = "contrib"
+
+projects[ds][version] = 1.5
+projects[ds][subdir] = "contrib"
 
 projects[entity][version] = 1.0-rc3
 projects[entity][subdir] = "contrib"
@@ -66,6 +66,9 @@ projects[token][subdir] = "contrib"
 
 projects[transliteration][version] = 1.2
 projects[transliteration][subdir] = "contrib"
+
+projects[twitter_block][version] = 1.0
+projects[twitter_block][subdir] = "contrib"
 
 projects[vars][version] = 2.0-alpha10
 projects[vars][type] = "module"
