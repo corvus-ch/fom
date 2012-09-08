@@ -35,7 +35,7 @@ function fom_init() {
   });", array('type' => 'inline', 'scope' => 'footer'));
 }
 
-function fom_query_views_articles_fom_alter(QueryAlterableInterface $query) {
+function fom_query_views_articles_statements_alter(QueryAlterableInterface $query) {
   $query->addJoin('LEFT', 'votingapi_cache', 'votes', 'node.nid = votes.entity_id AND votes.entity_type = :type AND votes.function = :func', array(':type' => 'node', ':func' => 'sum'));
   $query->orderBy('COALESCE(votes.value, 0)', 'DESC');
 }
