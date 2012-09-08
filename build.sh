@@ -2,7 +2,7 @@
 
 rm -rf public
 
-drush make forum.make public --translations=de,fr
+drush make fom.make public --translations=de,fr
 
 ln -s ../../../../modules/ public/sites/all/modules/custom
 ln -s ../../../../themes/fom_theme public/sites/all/themes/fom_theme
