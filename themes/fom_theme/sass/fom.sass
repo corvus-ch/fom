@@ -1,0 +1,82 @@
+@import 'compass/css3'
+
+.article.view-mode-teaser,
+.view-display-id-article
+  .group-left
+    width: 12%
+
+.article.view-mode-teaser,
+.view-display-id-article
+  .group-right
+    width: 88%
+
+.view-display-id-statements
+  .group-left
+    width: 17%
+  .group-right
+    width: 83%
+  .comment-wrapper h2.title
+    display: none
+
+.article.view-mode-teaser
+  p
+    margin: 0
+  .submitted
+    font-style: italic
+    margin: 0 0 0.6em
+
+.view-display-id-article .submitted, .field-name-post-date
+  font-style: italic
+  margin: 0 0 0.6em
+
+.group-left
+  .field-type-taxonomy-term-reference li
+    display: block
+  .image-style-user-thumb
+    margin-right: 1.2em
+
+.comment-wrapper span
+  float: left
+  font-style: italic
+  time span, span.username
+    float: none
+    font-style: italic
+    margin-right: 8px
+
+.comment
+  border: none
+  margin: 0
+
+.view-display-id-statements
+  .views-row .article
+    margin: 0 -30px
+    padding: 12px 30px
+  .views-row-odd .article
+    background: #fbfbfb
+  .views-row-last
+    margin-bottom: -40px
+
+.rc-4
+  .view-display-id-statements
+    .views-row-last .article
+      @include border-bottom-radius(4px)
+
+.rc-6
+  .view-display-id-statements
+    .views-row-last .article
+      @include border-bottom-radius(6px)
+
+.rc-8
+  .view-display-id-statements
+    .views-row-last .article
+      @include border-bottom-radius(8px)
+
+.rc-10
+  .view-display-id-statements
+    .views-row-last .article
+      @include border-bottom-radius(10px)
+
+.rc-12
+  .view-display-id-statements
+    .views-row-last .article
+      @include border-bottom-radius(12px)

@@ -1,3 +1,12 @@
-/**
+/*
  * Do not delete or rename this file, if you do not use it leave it blank.
  */
+/* line 6, ../sass/responsive.smartphone.portrait.sass */
+.view-display-id-statements .views-row .article {
+  margin: 0 -15px;
+  padding: 6px 15px;
+}
+/* line 9, ../sass/responsive.smartphone.portrait.sass */
+.view-display-id-statements .views-row-last {
+  margin-bottom: -28px;
+}
