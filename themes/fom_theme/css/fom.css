@@ -129,3 +129,10 @@
   -webkit-border-bottom-right-radius: 12px;
   border-bottom-right-radius: 12px;
 }
+
+/* line 86, ../sass/fom.sass */
+.settings_info_menu fieldset legend {
+  position: static;
+  color: black;
+  background-color: transparent;
+}
