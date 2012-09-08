@@ -47,3 +47,11 @@ function fom_query_views_popular_statements_alter(QueryAlterableInterface $query
 function fom_query_views_articles_statements_alter(QueryAlterableInterface $query) {
   _fom_query_alter_statements($query);
 }
+
+function fom_block_view_alter(&$data, $block) {
+  if ($block->module == 'twitter_block') {
+    $format = '<div class="content-style clearfix">!content</div>';
+    $data['content'] = format_string($format, array('!content' => $data['content']));
+  }
+}
+
