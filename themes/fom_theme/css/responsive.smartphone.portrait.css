@@ -10,3 +10,12 @@
 .view-display-id-statements .views-row-last {
   margin-bottom: -28px;
 }
+
+/* line 13, ../sass/responsive.smartphone.portrait.sass */
+.page-user .group-middle {
+  width: 75%;
+}
+/* line 15, ../sass/responsive.smartphone.portrait.sass */
+.page-user .group-right {
+  display: none;
+}
