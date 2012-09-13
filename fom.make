@@ -58,6 +58,9 @@ projects[references][subdir] = "contrib"
 projects[secureshare][version] = 2.1
 projects[secureshare][subdir] = "contrib"
 
+projects[social-login][version] = 1.1
+projects[social-login][subdir] = "contrib"
+
 projects[taxonomy_menu][version] = 1.3
 projects[taxonomy_menu][subdir] = "contrib"
 
