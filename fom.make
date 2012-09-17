@@ -37,6 +37,9 @@ projects[entityreference][subdir] = "contrib"
 projects[htmlpurifier][version] = 2.x-dev
 projects[htmlpurifier][subdir] = "contrib"
 
+projects[i18n][version] = 1.7
+projects[i18n][subdir] = "contrib"
+
 projects[l10n_update][version] = 1.0-beta3
 projects[l10n_update][subdir] = "contrib"
 
@@ -78,6 +81,9 @@ projects[twitter_block][subdir] = "contrib"
 
 projects[url][version] = 1.0-rc1
 projects[url][subdir] = "contrib"
+
+projects[variable][version] = 2.1
+projects[variable][subdir] = "contrib"
 
 projects[vars][version] = 2.0-alpha10
 projects[vars][type] = "module"
