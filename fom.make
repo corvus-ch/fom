@@ -52,7 +52,7 @@ projects[maxlength][subdir] = "contrib"
 projects[nodereference_url][version] = 1.12
 projects[nodereference_url][subdir] = "contrib"
 
-projects[pathauto][version] = 3.1
+projects[pathauto][version] = 1.2
 projects[pathauto][subdir] = "contrib"
 
 projects[references][version] = 2.0
@@ -73,7 +73,7 @@ projects[textile][subdir] = "contrib"
 projects[token][version] = 1.2
 projects[token][subdir] = "contrib"
 
-projects[transliteration][version] = 1.2
+projects[transliteration][version] = 3.1
 projects[transliteration][subdir] = "contrib"
 
 projects[twitter_block][version] = 1.0
