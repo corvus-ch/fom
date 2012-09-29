@@ -1,17 +1,1 @@
-/*
- * Do not delete or rename this file, if you do not use it leave it blank.
- */
-/* line 6, ../sass/responsive.desktop.sass */
-.page-user .field-name-artikel,
-.page-user .field-name-statements {
-  float: left;
-  width: 50%;
-}
-/* line 11, ../sass/responsive.desktop.sass */
-.page-user .field-name-artikel .field-items {
-  margin-right: 0.4em;
-}
-/* line 14, ../sass/responsive.desktop.sass */
-.page-user .field-name-statements .field-items {
-  margin-left: 0.4em;
-}
+.page-user .field-name-artikel,.page-user .field-name-statements{float:left;width:50%}.page-user .field-name-artikel .field-items{margin-right:0.4em}.page-user .field-name-statements .field-items{margin-left:0.4em}

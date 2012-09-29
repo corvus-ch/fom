@@ -1,11 +1,1 @@
-/*
- * Do not delete or rename this file, if you do not use it leave it blank.
- */
-/* line 6, ../sass/responsive.smartphone.landscape.sass */
-.page-user .group-middle {
-  width: 75%;
-}
-/* line 8, ../sass/responsive.smartphone.landscape.sass */
-.page-user .group-right {
-  display: none;
-}
+.page-user .group-middle{width:75%}.page-user .group-right{display:none}
