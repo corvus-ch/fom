@@ -22,9 +22,6 @@ projects[auto_nodetitle][subdir] = "contrib"
 projects[ctools][version] = 1.2
 projects[ctools][subdir] = "contrib"
 
-projects[devel][version] = 1.3
-projects[devel][subdir] = "contrib"
-
 projects[ds][version] = 1.5
 projects[ds][subdir] = "contrib"
 
@@ -33,6 +30,12 @@ projects[entity][subdir] = "contrib"
 
 projects[entityreference][version] = 1.0-rc3
 projects[entityreference][subdir] = "contrib"
+
+projects[field_group][version] = 1.1
+projects[field_group][subdir] = "contrib"
+
+projects[globalredirect][version] = 1.5
+projects[globalredirect][subdir] = "contrib"
 
 projects[htmlpurifier][version] = 2.x-dev
 projects[htmlpurifier][subdir] = "contrib"
@@ -76,7 +79,7 @@ projects[token][subdir] = "contrib"
 projects[transliteration][version] = 3.1
 projects[transliteration][subdir] = "contrib"
 
-projects[twitter_block][version] = 1.0
+projects[twitter_block][version] = 1.x-dev
 projects[twitter_block][subdir] = "contrib"
 
 projects[url][version] = 1.0-rc1
