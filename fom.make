@@ -46,6 +46,9 @@ projects[i18n][subdir] = "contrib"
 projects[l10n_update][version] = 1.0-beta3
 projects[l10n_update][subdir] = "contrib"
 
+projects[lang_dropdown][version] = 1.5
+projects[lang_dropdown][subdir] = "contrib"
+
 projects[libraries][version] = 1.0
 projects[libraries][subdir] = "contrib"
 
