@@ -79,8 +79,9 @@ projects[token][subdir] = "contrib"
 projects[transliteration][version] = 3.1
 projects[transliteration][subdir] = "contrib"
 
-projects[twitter_block][version] = 1.x-dev
+projects[twitter_block][version] = 1.0
 projects[twitter_block][subdir] = "contrib"
+projects[twitter_block][patch][] = http://drupal.org/files/fix-profile-image-link-1538390-2.patch
 
 projects[url][version] = 1.0-rc1
 projects[url][subdir] = "contrib"
